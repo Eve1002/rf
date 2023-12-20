@@ -1,0 +1,13 @@
+Package: rf
+Title: imitate randomforest 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Guanhua", "Xu", , "gx2058@nyu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: First we use with-replacement sampling of train dataset to build multiple tress(which are parallel), then we make predictions based on each tree and decide the final prediction using the majority vote(may use mapping to transform to labels of data). Finally we compare the prediction with the test dataset and calculate the accuracy.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    palmerpenguins
